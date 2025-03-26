@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+.contenedorDeLaPagina { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+
+.inicio {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  color: aliceblue;
+  z-index: 33;
+  background-image: url(/3.jpg);
+  max-width: 100%;
+}
+
+.ElJardinDelH {
+  width: 100%; 
+  height: 500%; 
+  position: absolute;
+  z-index: -1;
+}
+
+.titulos {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  font-family: "Almendra", serif;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 100%;
+}
+
+
+
+
+
+.androide-señalando {
+
+    width: 424px;
+    height: 424px;
+    z-index: 22;
+  
+}
+
+
+
+.titulo2 {
+  z-index: 18;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+ top: 325px;
+  right: 28px;
+  color: #ffffff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 
+  2px 2px 5px rgba(0, 0, 255, 0.8), 
+  -2px -2px 5px rgba(0, 0, 255, 0.8), 
+  2px -2px 5px rgba(0, 0, 255, 0.8),
+  -2px 2px 5px rgba(0, 0, 255, 0.8);
+  font-size: 22px;
+}
+
+.le-secret{
+  width: 600px;
+  height: 300px;
+
+}
+
+
+
+
+
+
+.contenedorDeParrafos {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  max-width: 98%;
+  z-index: 24;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  background-image: linear-gradient(to left, #ff36ff, #4d0170, #9c0056);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+
+.parrafo {
+  max-width: 100%;
+  flex-wrap: wrap;
+  font-size: 25px;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  color: #ffffff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 
+  2px 2px 5px rgba(0, 0, 255, 0.8), 
+  -2px -2px 5px rgba(0, 0, 255, 0.8), 
+  2px -2px 5px rgba(0, 0, 255, 0.8),
+  -2px 2px 5px rgba(0, 0, 255, 0.8);
+}
+
+
+
+
+.pruebade{
+max-width: 100%;
+}
+.pruebade2{
+  max-width: 100%;
+}
+
+
+
+.contenedorDeParrafo2 {
+
+  color: #880176; /* Amarillo dorado */
+  font-weight: bold;
+
+
+
+
+}
+
+
+
+
+
+.contenedorDeParrafo3 {
+  max-width: 100%;
+  font-size: 22px;
+  z-index: 22;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contenedorDeParrafo4 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  z-index: 22;
+  font-size: 42px;
+  font-weight: 900;
+  font-family: "Almendra", serif;
+  color: #ffffff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 
+  2px 2px 5px rgba(0, 0, 255, 0.8), 
+  -2px -2px 5px rgba(0, 0, 255, 0.8), 
+  2px -2px 5px rgba(0, 0, 255, 0.8),
+  -2px 2px 5px rgba(0, 0, 255, 0.8);
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+
+
+
+  /* Desktop */
+  @media screen and (max-width: 1000px) {
+    .ElJardinDelH{
+      width: 100%;
+      height: 390%;
+    }
+  
+    .pruebade{
+      width: 745px
+    }
+  
+    
+    .pruebade2{
+      width: 745px
+    }
+  
+    .hinata2{
+      width: 745px
+    }
+  
+  
+    .titulo2{
+      font-size: 18px;
+      top: 200px;
+      left: 200px;
+    }
+    .parrafo{
+      font-size: 20px
+      ;
+      max-width: 80%;
+    }
+  
+   .inicio{
+     font-size: 11px;
+   }
+  
+   .le-secret{
+    width: 400px;
+    height: 200px;
+   }
+   .androide-señalando{
+    width: 200px;
+    height: 200px;
+   }
+  
+   .contenedorDeParrafos{
+    width: 100%;
+   }
+  
+  .contenedorDeParrafo4{
+    font-size: 25px;
+    max-width: 80%;
+  }
+  
+  }
+
+@media screen and (max-width: 700px) {
+  .ElJardinDelH{
+    width: 100%;
+    height: 280%;
+  }
+
+  .pruebade{
+    width: 505px
+  }
+
+  
+  .pruebade2{
+    width: 505px
+  }
+
+  .hinata2{
+    width: 505px
+  }
+
+
+  .titulo2{
+    font-size: 16px;
+    top: 200px;
+    left: 200px;
+  }
+  .parrafo{
+    font-size: 17px
+    ;
+    max-width: 90%;
+  }
+
+ .inicio{
+   font-size: 11px;
+ }
+
+ .le-secret{
+  width: 200px;
+  height: 100px;
+ }
+ .androide-señalando{
+  width: 200px;
+  height: 200px;
+ }
+
+ .contenedorDeParrafos{
+  width: 100%;
+ }
+
+.contenedorDeParrafo4{
+  font-size: 15px;
+  max-width: 80%;
+}
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .ElJardinDelH{
+    width: 100%;
+    height: 260%;
+  }
+
+  .pruebade{
+    width: 345px
+  }
+
+  
+  .pruebade2{
+    width: 345px
+  }
+
+  .hinata2{
+    width: 350px
+  }
+
+
+  .titulo2{
+    font-size: 14px;
+    top: 200px;
+    left: 200px;
+  }
+  .parrafo{
+    font-size: 14px
+    ;
+    max-width: 80%;
+  }
+
+ .inicio{
+   font-size: 11px;
+ }
+
+ .le-secret{
+  width: 200px;
+  height: 100px;
+ }
+ .androide-señalando{
+  width: 200px;
+  height: 200px;
+ }
+
+ .contenedorDeParrafos{
+  width: 100%;
+ }
+
+.contenedorDeParrafo4{
+  font-size: 15px;
+  max-width: 80%;
+}
+
+}
+
+
+
+@media screen and  (max-width: 360px) {
+  .ElJardinDelH{
+    
+    height: 227%;
+  }
+
+  .pruebade{
+    width: 300px
+  }
+
+  
+  .pruebade2{
+    width: 300px
+  }
+
+  .hinata2{
+    width: 300px
+  }
+
+  .titulo2{
+    font-size: 10px;
+    top: 200px;
+    left: 200px;
+  }
+  .parrafo{
+    font-size: 12px
+    ;
+    max-width: 80%;
+  }
+
+ .inicio{
+   font-size: 11px;
+ }
+
+ .le-secret{
+  width: 200px;
+  height: 100px;
+ }
+ .androide-señalando{
+  width: 200px;
+  height: 200px;
+ }
+
+ .contenedorDeParrafos{
+  width: 100%;
+ }
+
+.contenedorDeParrafo4{
+  font-size: 15px;
+  max-width: 80%;
+}
+}
+
+
+
