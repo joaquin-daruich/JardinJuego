@@ -30,7 +30,7 @@ const Inicio = () => {
       <img className='le-secret' src="/alucard.png" alt="Juego Hentai Naruto" />
       <Link to={'https://www.youtube.com/watch?v=Sy3bmLipP30'}>
       <img  className='androide-señalando' src="/hinata.png" alt="Hinata Hentai" />
-      <h2 className='titulo2'>Hace Click en Hinata para ir a nuestro canal de Youtube!</h2>
+      <h2 className='titulo2'>Hace Click en Hinata para ir a nuestro canal de Youtube!!</h2>
       </Link>
       </div>
      
