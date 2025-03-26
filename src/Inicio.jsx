@@ -23,13 +23,13 @@ const Inicio = () => {
       </Link>}
       
     </div>
-    <img className='ElJardinDelH' src="/devuelta.png" alt="El Jardin Del H" />
+    <img className='ElJardinDelH' src="https://juegohdenaruto.netlify.app/devuelta.png" alt="El Jardin Del H" />
     
 
       <div className='titulos'>
-      <img className='le-secret' src="/alucard.png" alt="Juego Hentai Naruto" />
+      <img className='le-secret' src="https://juegohdenaruto.netlify.app/alucard.png" alt="Juego Hentai Naruto" />
       <Link to={'https://www.youtube.com/watch?v=Sy3bmLipP30'}>
-      <img  className='androide-señalando' src="/hinata.png" alt="Hinata Hentai" />
+      <img  className='androide-señalando' src="https://juegohdenaruto.netlify.app/hinata.png" alt="Hinata Hentai" />
       <h2 className='titulo2'>Hace Click en Hinata para ir a nuestro canal de Youtube!!</h2>
       </Link>
       </div>
@@ -49,11 +49,11 @@ const Inicio = () => {
       
       <p className='parrafo'>Peroo en lo que se trata de mujeres, estas desesperado, nunca tocaste una chica ni menos tuviste novia, y encima estas lleno de mujeres hermosas, pero ni saben que existis, estan todas fuera de tu alcance, pero bueno ya pensar en chicas te pone cachondo porque sos un maldito depravado con mucha imaginacion y haciendose muchas pajas al dia</p>
       
-      <img className='pruebade' src='/prueba.jpg'  alt="Naruto Hentai" ></img>
+      <img className='pruebade' src='https://juegohdenaruto.netlify.app/prueba.jpg'  alt="Naruto Hentai" ></img>
       <p className='parrafo'>Bueno como se puede ver hasta en cosas como esas se puede ver la mecanica del juego, donde podes elegir varias opciones (que suelen ser cachondas) y tener distintos resultados, por ejemplo donde tocar a Hinata, si preferis una mamada o follar.. bueno son ejemplos no quiero dar mas detalles para no arruinar las sorpresas! Pero tenes muchas opciones con las kunoichi de la aldea de la hoja... </p>
-      <img className='pruebade2' src='/image.jpg'  alt="Tsunade Hentai" ></img>
+      <img className='pruebade2' src='https://juegohdenaruto.netlify.app/image.jpg'  alt="Tsunade Hentai" ></img>
       <p className='parrafo'> Bueno.. Tenes que hacer misiones como todo Chunin</p>
-      <img className='hinata2' src='oh.jpg'   alt="Hinata Ecchi" ></img>
+      <img className='hinata2' src='https://juegohdenaruto.netlify.app/oh.jpg'   alt="Hinata Ecchi" ></img>
       <p className='parrafo'>Pero bueno... podrian pasar cosas en las misiones. </p>
       </div>
       <div className='contenedorDeParrafo3'>
