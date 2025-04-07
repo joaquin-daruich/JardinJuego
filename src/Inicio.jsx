@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Link,  useParams } from 'react-router-dom';
 
 const Inicio = () => {
   const { prueba } = useParams();
 
-  console.log(prueba);
-  const parrafo = ''
-  const pruebanomas = ''
- {
+  
+   
+   const [parrafoALeer , setParrafoALeer] = useState('')
+   useEffect(() => {
+    if (prueba) {
+      const parrafo = document.getElementById('parrafo1');
+      if (parrafo) {
+        setParrafoALeer(parrafo.innerHTML);
+      }
+    }
+  }, [prueba]);
+ 
+    if(prueba){
+
+    
     return (
       <>
         <div className='inicio'>
@@ -29,7 +40,7 @@ const Inicio = () => {
 
         <div className='contenedorDeParrafos'>
           <div className='contenedorDeParrafo2'>
-            <p className='parrafo'>{pruebanomas}</p>
+            {parrafoALeer}
             <p className='parrafo'>Disfrutá de una historia alternativa donde podés seducir a las kunoichis más deseadas de Konoha.</p>
             <img className='pruebade' src='https://juegohdenaruto.netlify.app/prueba.jpg' alt="Naruto Hentai" />
             <p className='parrafo'>Elegí tus caminos, desbloqueá escenas explícitas y viví tu fantasía shinobi.</p>
@@ -49,8 +60,8 @@ const Inicio = () => {
       </>
     );
   }
-
-  // Página principal: mantiene el contenido original
+  
+else{
   return (
     <>
       <div className='inicio'>
@@ -67,7 +78,7 @@ const Inicio = () => {
           <h2 className='titulo2'>Hace Click en Hinata para ir a nuestro canal de Youtube!!</h2>
         </Link>
       </div>
-      <p>{parrafo}</p>
+     
 
       <div className='contenedorDeParrafos'>
         <div className='contenedorDeParrafo2'>
@@ -96,7 +107,10 @@ const Inicio = () => {
         </div>
       </div>
     </>
-  );
-};
+     );
+}
+
+ 
+}
 
 export default Inicio;
