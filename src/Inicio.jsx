@@ -43,7 +43,7 @@ const Inicio = () => {
 
         <div className='contenedorDeParrafos'>
           <div className='contenedorDeParrafo2'>
-            {parrafoALeer}
+          <p className='parrafo'>{parrafoALeer}</p>
             <p className='parrafo'>Disfrutá de una historia alternativa donde podés seducir a las kunoichis más deseadas de Konoha.</p>
             <img className='pruebade' src='https://juegohdenaruto.netlify.app/prueba.jpg' alt="Naruto Hentai" />
             <p className='parrafo'>Elegí tus caminos, desbloqueá escenas explícitas y viví tu fantasía shinobi.</p>
