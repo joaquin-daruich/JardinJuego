@@ -3,21 +3,24 @@ import './App.css';
 import { Link,  useParams } from 'react-router-dom';
 
 const Inicio = () => {
-  const { prueba } = useParams();
 
   
    
    const [parrafoALeer , setParrafoALeer] = useState('')
+   const { segmento1, segmento2, segmento3} = useParams();
+
+   const slug = segmento3 || segmento2 || segmento1 ;
+   
    useEffect(() => {
-    if (prueba) {
-      const parrafo = document.getElementById('parrafo1');
-      if (parrafo) {
-        setParrafoALeer(parrafo.innerHTML);
-      }
-    }
-  }, [prueba]);
+     if (slug) {
+       const parrafo = document.getElementById('parrafo1');
+       if (parrafo) {
+         setParrafoALeer(parrafo.innerHTML);
+       }
+     }
+   }, [slug]);
  
-    if(prueba){
+    if(slug){
 
     
     return (

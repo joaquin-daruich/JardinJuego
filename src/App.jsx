@@ -17,7 +17,7 @@ import Inicio from './Inicio';
     <>
       <Routes>
   <Route path="/" element={<Inicio />} />
-  <Route path="/:prueba" element={<Inicio />} />
+  <Route path="/:segmento1/:segmento2/:segmento3" element={<Inicio />} />
       </Routes>
 
       
