@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link,  useParams } from 'react-router-dom';
 
 const Inicio = () => {
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const id = searchParams.get('id');
-  console.log(id)
+  const { prueba } = useParams();
 
-  // Contenido alternativo si viene con ?id=
-  if (id) {
+  console.log(prueba);
+  const parrafo = ''
+  const pruebanomas = ''
+ {
     return (
       <>
         <div className='inicio'>
@@ -30,7 +29,7 @@ const Inicio = () => {
 
         <div className='contenedorDeParrafos'>
           <div className='contenedorDeParrafo2'>
-            <p className='parrafo'>¿Hinata te mira así? Es porque te espera en este juego +18 de Naruto...</p>
+            <p className='parrafo'>{pruebanomas}</p>
             <p className='parrafo'>Disfrutá de una historia alternativa donde podés seducir a las kunoichis más deseadas de Konoha.</p>
             <img className='pruebade' src='https://juegohdenaruto.netlify.app/prueba.jpg' alt="Naruto Hentai" />
             <p className='parrafo'>Elegí tus caminos, desbloqueá escenas explícitas y viví tu fantasía shinobi.</p>
@@ -68,6 +67,7 @@ const Inicio = () => {
           <h2 className='titulo2'>Hace Click en Hinata para ir a nuestro canal de Youtube!!</h2>
         </Link>
       </div>
+      <p>{parrafo}</p>
 
       <div className='contenedorDeParrafos'>
         <div className='contenedorDeParrafo2'>
